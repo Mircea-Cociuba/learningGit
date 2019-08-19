@@ -6,7 +6,7 @@ int main()
 
 	unsigned char* ptri=(unsigned char *)&i;
 
-	if((*ptr)==(0xDD))
+	if((*ptri)==(0xDD))
 	{
 		printf("litle endian system \n");
 	}
